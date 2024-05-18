@@ -1,5 +1,3 @@
-import dotenv from 'dotenv';
-dotenv.config();
 import express from 'express'
 import http from 'http'
 import { Server as SocketIOServer, Socket } from 'socket.io';
@@ -8,7 +6,8 @@ import { initSocketIO, getSocketIO } from './socket';
 import mongoose, { ConnectOptions } from 'mongoose';
 import taskRouter from './routers/tasksRouter';
 import userRouter from './routers/userRouter';
-
+import dotenv from 'dotenv'
+dotenv.config();
 
 
 const app = express();
