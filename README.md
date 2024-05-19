@@ -33,9 +33,18 @@ Start the server:
 
 npm start
 
+DOCUMENTATION
+
+{
+“originalUrl”: “https://documenter.getpostman.com/view/31029174/2sA3QmDEZZ”
+}
+
+
 CONTRIBUTING
 
 Contributions are welcome! Please create a pull request with a detailed description of your changes.
+
+
 
 
 
