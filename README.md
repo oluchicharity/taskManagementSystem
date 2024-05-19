@@ -51,11 +51,12 @@ Prerequisites
  
 Clone the repository:
 
-git clone https://github.com/your-username/task-management-system.git
+git clone https://github.com/oluchicharity/taskManagementSystem.git
 cd task-management-system
 Install the dependencies:
 
 npm install
+
 Create a .env file in the root directory with the following contents:
 
 SECRET=SECRET
